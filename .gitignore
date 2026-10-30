@@ -1,0 +1,22 @@
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies and generated output
+node_modules/
+dist/
+build/
+coverage/
+.next/
+
+# Local uploads and runtime data
+storage/*
+!storage/.gitkeep
+uploads/*
+!uploads/.gitkeep
+
+# Logs and OS files
+*.log
+.DS_Store
+Thumbs.db
